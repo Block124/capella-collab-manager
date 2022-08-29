@@ -14,6 +14,7 @@ import capellacollab.extensions.modelsources.t4c.connection as t4c_manager
 import capellacollab.projects.crud as repositories_crud
 import capellacollab.projects.users.models as users_models
 import capellacollab.users.crud as users
+from capellacollab.config import config
 from capellacollab.core.authentication.database import (
     is_admin,
     verify_project_role,
@@ -28,7 +29,7 @@ from capellacollab.core.database import get_db
 from capellacollab.projects.users.crud import RepositoryUserRole
 from capellacollab.sessions import database, guacamole
 from capellacollab.sessions.models import DatabaseSession
-from capellacollab.sessions.operators import OPERATOR, Operator, get_operator
+from capellacollab.sessions.operators import Operator, get_operator
 from capellacollab.sessions.schema import (
     AdvancedSessionResponse,
     DepthType,
