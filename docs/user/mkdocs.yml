@@ -7,15 +7,20 @@ theme:
 nav:
   - Introduction: index.md
   - Getting Started:
-      - Overview: getting-started/getting-started.md
+      - Overview: getting-started/overview.md
       - Introduction to Capella: getting-started/capella-intro.md
-      - Read-only sessions: getting-started/read-only.md
-      - Read-Write (TeamForCapella): getting-started/read-write-t4c.md
   - Projects:
       - Get access to a project: projects/access.md
       - Request a new project: projects/new.md
       - Delete a project: projects/delete.md
       - Roles: projects/roles.md
+      - Models:
+          - Create a model: projects/models/create.md
+          - Configure a model: projects/models/configure.md
+          - Modify model sources: projects/models/sources.md
+          - Backups:
+              - Setup a model backup: projects/models/backups/setup.md
+              - Trigger a model backup: projects/models/backups/trigger.md
   - Sessions:
       - Session Types: sessions/types.md
       - Request Session: sessions/request.md

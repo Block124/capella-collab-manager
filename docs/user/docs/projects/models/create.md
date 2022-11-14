@@ -3,11 +3,10 @@
  ~ SPDX-License-Identifier: Apache-2.0
  -->
 
-# Create a _Collab Manager_ model
+# Create a _Collaboration Manager_ model
 
-Collab Manager proposes a wizard to create models in a project. To create a model, you have to be at least project
-manager, and you need to be administrator to add a Team for Capella source, which is needed to set up a Team for Capella
-backup. To create a model, go to the _Projects_ tab of the navigation bar, open the project in witch you want to create
+We propose a wizard to create models in a project. To create a model, you have to be at least project
+lead. To create a model, go to the _Projects_ tab of the navigation bar, open the project in which you want to create
 a model, and click on the “+” icon.
 
 The creation can be interrupted at any step, however an unfinished model will lack some essential features, so it’s
